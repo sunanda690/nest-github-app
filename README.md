@@ -2,7 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the Repo
+2. Create a new GitHub OAuth App in developers settings
+3. Copy the Client ID, Secret, personal Access token as follows :
+```
+GITHUB_ID=<CLIENT_ID>
+GITHUB_SECRET=<CLIENT_SECRET>
+GITHUB_ACCESS_TOKEN=<PAT>
+```
+into a local environment file ``.env.local``
+
+Finally, run the development server:
 
 ```bash
 npm run dev
